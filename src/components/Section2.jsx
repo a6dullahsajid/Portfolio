@@ -33,19 +33,34 @@ export default function Section2() {
       </div>
       <h3>Key Skills</h3>
       <ul className="skills">
-        <li>
+        <li key="1">
           <img src={htmlLogo} alt="logo" />
           HTML
         </li>
-        <li>
+        <li key="2">
           <img src={cssLogo} alt="logo" />
           CSS
         </li>
-        <li><img src={jsLogo} alt="logo" />Javascript</li>
-        <li><img src={reactLogo} alt="logo" />React</li>
-        <li><img src={tailwindLogo} alt="logo" />Tailwind CSS</li>
-        <li><img src={bootstrapLogo} alt="logo" />Bootstrap</li>
-        <li><img src={githubLogo} alt="logo" />GitHub</li>
+        <li key="3">
+          <img src={jsLogo} alt="logo" />
+          Javascript
+        </li>
+        <li key="4">
+          <img src={reactLogo} alt="logo" />
+          React
+        </li>
+        <li key="5">
+          <img src={tailwindLogo} alt="logo" />
+          Tailwind CSS
+        </li>
+        <li key="6">
+          <img src={bootstrapLogo} alt="logo" />
+          Bootstrap
+        </li>
+        <li key="7">
+          <img src={githubLogo} alt="logo" />
+          GitHub
+        </li>
       </ul>
     </section>
   );

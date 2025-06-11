@@ -8,9 +8,10 @@ export default function Section3() {
         <div className="line"></div>
       </h2>
       <div className="allprojects">
-        {projects.map((project) => {
+        {projects.map((project, index)=> {
           return (
             <Project
+              key={index}
               name={project.name}
               description={project.description}
               image={project.imagePrev}

@@ -612,12 +612,9 @@ h3 {
     }
 
     #section3 {
-<<<<<<< HEAD
         height: 443vh;
-=======
         height: fit-content;
         margin-bottom: 2rem;
->>>>>>> 10ffb6a (Update: describe your changes here)
         gap: 1.5rem;
     }
 
