@@ -361,7 +361,8 @@ h3 {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    height: 80vh;
+    height: fit-content;
+    margin-bottom: 2rem;
 }
 
 .connect {
@@ -611,7 +612,12 @@ h3 {
     }
 
     #section3 {
+<<<<<<< HEAD
         height: 443vh;
+=======
+        height: fit-content;
+        margin-bottom: 2rem;
+>>>>>>> 10ffb6a (Update: describe your changes here)
         gap: 1.5rem;
     }
 
@@ -703,7 +709,8 @@ h3 {
 
     #section4 {
         gap: 1.5rem;
-        height: 65vh;
+        height: fit-content;
+        margin-bottom: 2rem;
     }
 
     .connect {
@@ -941,7 +948,8 @@ h3 {
     }
 
     #section3 {
-        height: 400vh;
+        height: fit-content;
+        margin-bottom: 2rem;
         gap: 3rem;
     }
 
@@ -972,7 +980,8 @@ h3 {
 
     #section4 {
         gap: 1.5rem;
-        height: 53vh;
+        height: fit-content;
+        margin-bottom: 2rem;
     }
 
     .connect {
@@ -1210,7 +1219,8 @@ h3 {
     }
 
     #section3 {
-        height: 275vh;
+        height: fit-content;
+        margin-bottom: 2rem;
         gap: 3rem;
     }
 
@@ -1241,7 +1251,8 @@ h3 {
 
     #section4 {
         gap: 1.5rem;
-        height: 70vh;
+        height: fit-content;
+        margin-bottom: 2rem;
     }
 
     .connect {
@@ -1471,7 +1482,8 @@ h3 {
     #section3 {
         display: flex;
         flex-direction: column;
-        height: 255vh;
+        height: fit-content;
+        margin-bottom: 2rem;
         gap: 1rem;
     }
 
@@ -1576,7 +1588,8 @@ h3 {
         flex-direction: column;
         align-items: center;
         gap: 1.3rem;
-        height: 80vh;
+        height: fit-content;
+        margin-bottom: 2rem;
     }
 
     .connect {
