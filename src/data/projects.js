@@ -6,16 +6,26 @@ import textAnalyzerImg from "../assets/projects/text-analyzer.png";
 import calculatorImg from "../assets/projects/calculator.png";
 import amazonCloneImg from "../assets/projects/amazon_clone.png";
 import netflixCloneImg from "../assets/projects/netflix_clone.png";
+import nexVaultImg from "../assets/projects/nexvault.png";
 
 const projects = [
   {
     name: "Quiz Forge",
     techUsed: "React, JavaScript, HTML, CSS, Context API",
     description:
-      "A React-based responsive quiz application with timed questions, dynamic scoring, and progress tracking. Designed for placement prep.",
+    "A React-based responsive quiz application with timed questions, dynamic scoring, and progress tracking. Designed for placement prep.",
     link: "https://a6dullahsajid.github.io/QuizForge/",
     code: "https://github.com/a6dullahsajid/QuizForge",
     imagePrev: quizForgeImg,
+  },
+  {
+    name: "NexVault",
+    techUsed: "React, Vite, JavaScript, HTML, CSS, Local Storage",
+    description:
+      "A secure, browser-based password manager that stores credentials locally. Features add/edit/delete, password visibility toggles and copy to clipboard.",
+    link: "https://a6dullahsajid.github.io/NexVault/",
+    code: "https://github.com/a6dullahsajid/NexVault",
+    imagePrev: nexVaultImg,
   },
   {
     name: "Tic Tac Toe",
@@ -81,6 +91,5 @@ const projects = [
     imagePrev: netflixCloneImg,
   },
 ];
-
 
 export default projects;

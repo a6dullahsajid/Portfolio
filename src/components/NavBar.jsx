@@ -4,7 +4,7 @@ import projectsImage from "../assets/project.svg";
 import contactImage from "../assets/contact.svg";
 export default function NavBar() {
   return (
-    <nav>
+    <nav className="">
       <a href="#section1">
         <p>
           <img src={homeImage} alt="" />
