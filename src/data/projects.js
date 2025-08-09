@@ -1,3 +1,4 @@
+import portexaImg from "../assets/projects/portexa.png";
 import quizForgeImg from "../assets/projects/quiz_forge.png";
 import ticTacToeImg from "../assets/projects/tic-tac-toe.png";
 import todoWebAppImg from "../assets/projects/todo_app.png";
@@ -10,10 +11,19 @@ import nexVaultImg from "../assets/projects/nexvault.png";
 
 const projects = [
   {
+    name: "Portexa",
+    techUsed: "Next.js, Redux, Firebase, Cloudinary, Tailwind CSS",
+    description:
+      "A template-based portfolio builder that allows users to create and publish their portfolios quickly using pre-designed layouts. Supports image uploads, live previews, and instant deployment.",
+    link: "https://portexa.vercel.app/",
+    code: "https://github.com/a6dullahsajid/portexa",
+    imagePrev: portexaImg,
+  },
+  {
     name: "Quiz Forge",
     techUsed: "React, JavaScript, HTML, CSS, Context API",
     description:
-    "A React-based responsive quiz application with timed questions, dynamic scoring, and progress tracking. Designed for placement prep.",
+      "A React-based responsive quiz application with timed questions, dynamic scoring, and progress tracking. Designed for placement prep.",
     link: "https://a6dullahsajid.github.io/QuizForge/",
     code: "https://github.com/a6dullahsajid/QuizForge",
     imagePrev: quizForgeImg,

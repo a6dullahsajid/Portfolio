@@ -1,11 +1,16 @@
 import resume from "../assets/Resume.pdf";
-import htmlLogo from "../assets/html5_logo.png";
-import cssLogo from "../assets/css_logo.png";
-import jsLogo from "../assets/js_logo.webp";
-import reactLogo from "../assets/react_logo.png";
-import tailwindLogo from "../assets/tailwind_logo.png";
-import bootstrapLogo from "../assets/bootstrap_logo.png";
-import githubLogo from "../assets/github_logo.png";
+import htmlLogo from "../assets/logos/html5_logo.png";
+import cssLogo from "../assets/logos/css_logo.png";
+import jsLogo from "../assets/logos/js_logo.webp";
+import reactLogo from "../assets/logos/react_logo.png";
+import tailwindLogo from "../assets/logos/tailwind_logo.png";
+import bootstrapLogo from "../assets/logos/bootstrap_logo.png";
+import githubLogo from "../assets/logos/github_logo.png";
+import reduxLogo from "../assets/logos/redux_logo.png";
+import nextLogo from "../assets/logos/next_logo.png";
+import nextAuthLogo from "../assets/logos/next_auth_logo.png";
+import firebaseLogo from "../assets/logos/firebase_logo.png";
+
 export default function Section2() {
   return (
     <section id="section2">
@@ -14,17 +19,16 @@ export default function Section2() {
         <div className="line"></div>
       </h2>
       <div className="description">
-        Hi, I’m Abdullah Sajid, a detail-oriented Front-End Web Developer with a
-        strong foundation in HTML, CSS, JavaScript, and modern frameworks like
-        React.js and Tailwind CSS.
-        <br /> I specialize in building accessible, responsive, and
-        user-friendly web applications, component architecture, and state
-        management. Through hands-on experience in projects, I have developed a
-        solid understanding of React ecosystem tools, REST APIs, and front-end
-        performance optimization.
-        <br /> My work emphasizes clean code, modular design, and cross-device
-        compatibility. I am focused on contributing to impactful projects and
-        continuously refining my skills.
+        <span>
+          Hi, I'm Abdullah Sajid - a front-end web developer skilled in HTML,
+          CSS, JavaScript, React.js, Next.js and Tailwind CSS. I'm experienced
+          with Redux Toolkit, NextAuth, REST APIs, file-based routing, and both
+          client/server components.
+        </span>
+        I specialize in building responsive, accessible, and user-friendly web
+        applications with a focus on component architecture, state management,
+        and performance optimization. I value clean, modular code and enjoy
+        contributing to meaningful, real-world projects.
       </div>
       <div className="resume">
         <a href={resume} target="_blank">
@@ -33,31 +37,47 @@ export default function Section2() {
       </div>
       <h3>Key Skills</h3>
       <ul className="skills">
-        <li key="1">
+        <li>
           <img src={htmlLogo} alt="logo" />
           HTML
         </li>
-        <li key="2">
+        <li>
           <img src={cssLogo} alt="logo" />
           CSS
         </li>
-        <li key="3">
+        <li>
           <img src={jsLogo} alt="logo" />
           Javascript
         </li>
-        <li key="4">
+        <li>
           <img src={reactLogo} alt="logo" />
           React
         </li>
-        <li key="5">
+        <li>
+          <img src={reduxLogo} alt="logo" />
+          Redux
+        </li>
+        <li>
+          <img src={nextLogo} alt="logo" />
+          Next.js
+        </li>
+        <li>
+          <img src={nextAuthLogo} alt="logo" />
+          Next Auth
+        </li>
+        <li>
+          <img src={firebaseLogo} alt="logo" />
+          Firebase
+        </li>
+        <li>
           <img src={tailwindLogo} alt="logo" />
           Tailwind CSS
         </li>
-        <li key="6">
+        <li>
           <img src={bootstrapLogo} alt="logo" />
           Bootstrap
         </li>
-        <li key="7">
+        <li>
           <img src={githubLogo} alt="logo" />
           GitHub
         </li>

@@ -1,6 +1,6 @@
-import githubLogo from "../assets/github_logo.png";
-import xLogo from "../assets/x_logo.png";
-import linkedinLogo from "../assets/linkedin.png";
+import githubLogo from "../assets/logos/github_logo.png";
+import xLogo from "../assets/logos/x_logo.png";
+import linkedinLogo from "../assets/logos/linkedin.png";
 export default function section4() {
   return (
     <section id="section4">
@@ -9,9 +9,9 @@ export default function section4() {
         <div className="line"></div>
       </h2>
       <div className="description">
-        I’m always open to collaborating, learning, and exploring new
+        I'm always open to collaborating, learning, and exploring new
         opportunities — from creative collaborations to building meaningful
-        digital experiences. Whether you’re looking for a dedicated Front-End
+        digital experiences. Whether you're looking for a dedicated Front-End
         Web Developer to bring ideas to life, a reliable problem solver, or
         simply want to connect and exchange thoughts on web technologies and
         design, feel free to reach out.
