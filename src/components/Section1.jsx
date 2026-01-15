@@ -1,4 +1,4 @@
-import photo from "../assets/photo2.png";
+import photo from "../assets/photo1.jpeg";
 export default function Section1() {
   return (
     <section id="section1">

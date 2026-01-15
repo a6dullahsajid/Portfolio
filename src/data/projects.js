@@ -8,6 +8,7 @@ import calculatorImg from "../assets/projects/calculator.png";
 import amazonCloneImg from "../assets/projects/amazon_clone.png";
 import netflixCloneImg from "../assets/projects/netflix_clone.png";
 import nexVaultImg from "../assets/projects/nexvault.png";
+import oasisTrendImg from "../assets/projects/oasis_trends.png";
 
 const projects = [
   {
@@ -18,6 +19,15 @@ const projects = [
     link: "https://portexa.vercel.app/",
     code: "https://github.com/a6dullahsajid/portexa",
     imagePrev: portexaImg,
+  },
+  {
+    name: "Oasis Trends",
+    techUsed: "Gatsby, React, CSS, BEM Methodology",
+    description:
+      "A modern, responsive website for a premium leather manufacturer built with Gatsby v5, featuring SEO optimization and performance-optimized static generation.",
+    link: "https://oasistrendsleather.com/",
+    code: "https://github.com/a6dullahsajid/Oasis-Trends",
+    imagePrev: oasisTrendImg,
   },
   {
     name: "Quiz Forge",
