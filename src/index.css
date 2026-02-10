@@ -147,7 +147,7 @@
     
     /* Shadow Colors */
     --shadow-primary: rgba(82, 78, 191, 0.3);
-    --shadow-secondary: rgba(82, 78, 191, 0.5);
+    --shadow-secondary: rgb(78, 182, 191);
 }
 
 header {
@@ -412,7 +412,7 @@ h3 {
     border-radius: 2rem;
     font-size: 1rem;
     gap: 0.6rem;
-    background-color: var(--bg-primary);
+    background: linear-gradient(310deg, #c6f4ff, #ffffff);
     box-shadow: -1px 1px 1px var(--border-secondary);
     color: var(--theme-color);
     transition: all 300ms ease;
@@ -457,13 +457,13 @@ h3 {
 }
 
 .project {
-    background-color: var(--bg-primary);
+    background: linear-gradient(to top, #c6f4ff, #ffffff);
     min-height: 24rem;
     width: 19rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    box-shadow: -1px 1px 5px var(--shadow-secondary);
+    box-shadow: 0px 0px 3px var(--shadow-secondary);
     border-radius: 1rem;
     transition: all 300ms ease-out;
     animation: fadeInUp 0.8s ease-out;
@@ -480,7 +480,7 @@ h3 {
 
 .project:hover {
     transform: scale(1.02) translateY(-5px);
-    box-shadow: -1px 1px 15px var(--theme-color-dark);
+    box-shadow: -1px 1px 15px var(--shadow-secondary);
 }
 
 .projectImage img {
