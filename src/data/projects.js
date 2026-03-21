@@ -9,8 +9,18 @@ import amazonCloneImg from "../assets/projects/amazon_clone.png";
 import netflixCloneImg from "../assets/projects/netflix_clone.png";
 import nexVaultImg from "../assets/projects/nexvault.png";
 import oasisTrendImg from "../assets/projects/oasis_trends.png";
+import spliterrImg from "../assets/projects/spliterr.png"
 
 const projects = [
+  {
+    name: "Spliterr",
+    techUsed: "React, JavaScript, HTML, CSS",
+    description:
+      "A smart expense splitting web application that allows users to divide bills and track shared expenses easily. Designed with a clean UI to simplify group payments and balance tracking.",
+    link: "https://spliterr.vercel.app/",
+    code: "https://github.com/a6dullahsajid/spliterr",
+    imagePrev: spliterrImg,
+  },
   {
     name: "Portexa",
     techUsed: "Next.js, Redux, Firebase, Cloudinary, Tailwind CSS",
