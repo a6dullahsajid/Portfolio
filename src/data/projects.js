@@ -14,7 +14,7 @@ import spliterrImg from "../assets/projects/spliterr.png"
 const projects = [
   {
     name: "Spliterr",
-    techUsed: "React, JavaScript, HTML, CSS",
+    techUsed: "Next.js, REST API, MongoDB, JWT Authentication, React, HTML, CSS",
     description:
       "A smart expense splitting web application that allows users to divide bills and track shared expenses easily. Designed with a clean UI to simplify group payments and balance tracking.",
     link: "https://spliterr.vercel.app/",
