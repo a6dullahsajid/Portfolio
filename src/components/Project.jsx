@@ -14,10 +14,10 @@ export default function Project({ name, description, image, link, code, techUsed
           <img src={previewSvg} alt="svg" />
           Preview
         </a>
-        <a href={code} target="_blank">
+        {code && <a href={code} target="_blank">
           <img src={codeSvg} alt="svg" />
           Code
-        </a>
+        </a>}
       </div>
     </div>
   );

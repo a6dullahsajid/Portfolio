@@ -1,6 +1,6 @@
-import githubLogo from "../assets/logos/github_logo.png";
-import xLogo from "../assets/logos/x_logo.png";
-import linkedinLogo from "../assets/logos/linkedin.png";
+import githubLogo from "../assets/logos/github_logo.svg";
+import xLogo from "../assets/logos/x_logo.svg";
+import linkedinLogo from "../assets/logos/linkedin_logo.svg";
 export default function section4() {
   return (
     <section id="section4">

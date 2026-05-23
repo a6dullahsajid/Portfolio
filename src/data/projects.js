@@ -10,6 +10,8 @@ import netflixCloneImg from "../assets/projects/netflix_clone.png";
 import nexVaultImg from "../assets/projects/nexvault.png";
 import oasisTrendImg from "../assets/projects/oasis_trends.png";
 import spliterrImg from "../assets/projects/spliterr.png"
+import whatsappImg from "../assets/projects/whatsapp.png"
+import floatImg from "../assets/projects/float.png"
 
 const projects = [
   {
@@ -36,7 +38,7 @@ const projects = [
     description:
       "A modern, responsive website for a premium leather manufacturer built with Gatsby v5, featuring SEO optimization and performance-optimized static generation.",
     link: "https://oasistrendsleather.com/",
-    code: "https://github.com/a6dullahsajid/Oasis-Trends",
+    // code: "https://github.com/a6dullahsajid/Oasis-Trends",
     imagePrev: oasisTrendImg,
   },
   {
@@ -85,6 +87,15 @@ const projects = [
     imagePrev: snakeAndLadderImg,
   },
   {
+    name: "Whatsapp-web UI",
+    techUsed: "React, JavaScript, TailwindCSS",
+    description:
+      "A responsive WhatsApp Web UI clone built with React and Tailwind CSS, featuring a modern interface and clean responsive design inspired by the original platform.",
+    link: "https://a6dullahsajid.github.io/whatsapp-web/",
+    code: "https://github.com/a6dullahsajid/whatsapp-web",
+    imagePrev: whatsappImg,
+  },
+  {
     name: "Text Analyzer",
     techUsed: "React, JavaScript, HTML, CSS, State Management",
     description:
@@ -92,6 +103,15 @@ const projects = [
     link: "https://a6dullahsajid.github.io/Text-Analyzer/",
     code: "https://github.com/a6dullahsajid/Text-Analyzer",
     imagePrev: textAnalyzerImg,
+  },
+  {
+    name: "Float Landing Page",
+    techUsed: "React, TailwindCSS",
+    description:
+      "A modern landing page built with React and Tailwind CSS, featuring responsive sections, smooth layouts and a sleek UI focused on product presentation.",
+    link: "https://a6dullahsajid.github.io/Float/",
+    code: "https://github.com/a6dullahsajid/Float",
+    imagePrev: floatImg,
   },
   {
     name: "Web Calculator",

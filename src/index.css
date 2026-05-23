@@ -11,6 +11,7 @@
         opacity: 0;
         transform: translateY(30px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -22,6 +23,7 @@
         opacity: 0;
         transform: translateX(-30px);
     }
+
     to {
         opacity: 1;
         transform: translateX(0);
@@ -33,6 +35,7 @@
         opacity: 0;
         transform: translateX(30px);
     }
+
     to {
         opacity: 1;
         transform: translateX(0);
@@ -44,6 +47,7 @@
         opacity: 0;
         transform: translateY(-50px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -51,27 +55,36 @@
 }
 
 @keyframes pulse {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: scale(1);
     }
+
     50% {
         transform: scale(1.05);
     }
 }
 
 @keyframes float {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateY(0px);
     }
+
     50% {
         transform: translateY(-10px);
     }
 }
 
 @keyframes glow {
-    0%, 100% {
+
+    0%,
+    100% {
         box-shadow: 0px 0px 5px var(--border-secondary);
     }
+
     50% {
         box-shadow: 0px 0px 20px var(--theme-color-dark);
     }
@@ -81,16 +94,21 @@
     from {
         width: 0;
     }
+
     to {
         width: 100%;
     }
 }
 
 @keyframes blink {
-    0%, 50% {
+
+    0%,
+    50% {
         border-color: transparent;
     }
-    51%, 100% {
+
+    51%,
+    100% {
         border-color: var(--theme-color);
     }
 }
@@ -112,10 +130,11 @@
     grid-template-rows: 12vh auto;
     height: 100vh;
     width: 100vw;
-    /* background: linear-gradient(to bottom, rgb(221, 239, 255, 0.05), rgba(221, 239, 255, 0.1), rgba(221, 239, 255, 0.15), rgba(221, 239, 255, 0.3), rgba(221, 239, 255, 0.4), rgba(221, 239, 255, 0.5), rgba(221, 239, 255, 0.6), rgba(221, 239, 255, 0.8), rgba(221, 239, 255, 1)); */
-    background: rgba(217, 216, 255, 0.2);
-    /* background: #fffbf3b1; */
+    background: #09041a;
+}
 
+body{
+    background: #09031c;
 }
 
 
@@ -125,26 +144,26 @@
     --theme-color-light: rgba(82, 78, 191, 0.1);
     --theme-color-medium: rgba(82, 78, 191, 0.3);
     --theme-color-dark: rgba(82, 78, 191, 0.8);
-    
+
     /* Secondary Colors */
     --heading-color: rgb(32, 30, 81);
     --heading-color-light: rgba(32, 30, 81, 0.7);
     --heading-color-medium: rgba(32, 30, 81, 0.5);
-    
+
     /* Text Colors */
     --text-primary: rgba(0, 0, 0, 0.85);
     --text-secondary: rgba(0, 0, 0, 0.7);
     --text-muted: rgba(0, 0, 0, 0.5);
-    
+
     /* Background Colors */
     --bg-primary: rgb(244, 234, 255);
     --bg-secondary: rgba(255, 255, 255, 0.9);
     --bg-accent: rgba(82, 78, 191, 0.05);
-    
+
     /* Border Colors */
     --border-primary: rgba(82, 78, 191, 0.2);
     --border-secondary: rgba(82, 78, 191, 0.4);
-    
+
     /* Shadow Colors */
     --shadow-primary: rgba(82, 78, 191, 0.3);
     --shadow-secondary: rgb(78, 182, 191);
@@ -175,7 +194,7 @@ header {
 .heading {
     font-size: 2.3rem;
     text-shadow: -1px 1px 1px var(--theme-color);
-    background: linear-gradient(to right, var(--theme-color),rgba(88, 71, 216, 0.99));
+    background: linear-gradient(to right, rgb(127, 123, 255), rgb(196, 194, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -203,7 +222,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: rgb(196, 194, 255);
     transition: all 500ms ease;
     position: relative;
     padding: 0.5rem 1rem;
@@ -212,7 +231,7 @@ nav a {
 
 nav a:hover {
     text-shadow: 0px 0px 2px var(--text-muted);
-    filter: drop-shadow(0px 0px 2px var(--text-muted));
+    filter: drop-shadow(0px 0px 1px rgb(196, 194, 255));
     transform: translateY(-1px);
 }
 
@@ -264,7 +283,7 @@ section {
 
 .name {
     font-size: 6rem;
-    background: linear-gradient(to right, var(--theme-color), var(--heading-color));
+    background: linear-gradient(to right, rgb(144, 141, 247), rgb(85, 80, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -279,7 +298,7 @@ section {
 
 .profession {
     font-size: 3.2rem;
-    background: linear-gradient(to right, var(--theme-color), var(--heading-color));
+    background: linear-gradient(to right, rgb(144, 141, 247), rgb(85, 80, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -330,7 +349,7 @@ h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* color: var(--theme-color); */
     font-weight: 600;
-    background: linear-gradient(to right, var(--theme-color), var(--heading-color));
+    background: linear-gradient(to right, rgb(127, 123, 255), rgb(196, 194, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -343,7 +362,7 @@ h2 {
     margin-left: 1rem;
     margin-right: 1rem;
     height: 1px;
-    background-color: var(--theme-color);
+    background-color: rgb(140, 136, 255);
 }
 
 .description {
@@ -355,7 +374,7 @@ h2 {
     font-size: 1.1rem;
     word-spacing: 0.3rem;
     letter-spacing: 0.05rem;
-    color: rgba(38, 13, 63, 0.7);
+    color: rgb(196, 194, 255);
 }
 
 .resume {
@@ -364,10 +383,10 @@ h2 {
 
 .resume a {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: 1px solid var(--theme-color);
+    border: 1px solid rgb(120, 116, 235);
     padding: 0.55rem;
     background-color: transparent;
-    color: var(--theme-color);
+    color: rgb(120, 116, 235);
     border-radius: 0.2rem;
     cursor: pointer;
     text-decoration: none;
@@ -376,7 +395,7 @@ h2 {
 }
 
 .resume a:hover {
-    background-color: var(--theme-color);
+    background-color: rgb(120, 116, 235);
     color: white;
 }
 
@@ -384,8 +403,8 @@ h3 {
     width: 75%;
     font-size: 2.2rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: var(--theme-color);
-    text-shadow: -1px 1px 2px var(--theme-color);
+    color: rgb(118, 114, 255);
+    text-shadow: -1px 1px 2px rgb(149, 145, 255);
     margin-top: 1.8rem;
     margin-bottom: 1.3rem;
 }
@@ -412,26 +431,50 @@ h3 {
     border-radius: 2rem;
     font-size: 1rem;
     gap: 0.6rem;
-    background: linear-gradient(310deg, #c6f4ff, #ffffff);
-    box-shadow: -1px 1px 1px var(--border-secondary);
-    color: var(--theme-color);
+    background: linear-gradient(310deg, rgba(196, 194, 255, 0.696), rgba(181, 178, 255, 0.822));
+    box-shadow: -1px 1px 1px rgb(11, 1, 56);
+    color: transparent;
     transition: all 300ms ease;
     animation: fadeInUp 0.6s ease-out;
     animation-fill-mode: both;
     opacity: 0;
 }
 
-.skills li:nth-child(1) { animation-delay: 0.1s; }
-.skills li:nth-child(2) { animation-delay: 0.2s; }
-.skills li:nth-child(3) { animation-delay: 0.3s; }
-.skills li:nth-child(4) { animation-delay: 0.4s; }
-.skills li:nth-child(5) { animation-delay: 0.5s; }
-.skills li:nth-child(6) { animation-delay: 0.6s; }
-.skills li:nth-child(7) { animation-delay: 0.7s; }
-.skills li:nth-child(8) { animation-delay: 0.8s; }
+.skills li:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.skills li:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.skills li:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.skills li:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.skills li:nth-child(5) {
+    animation-delay: 0.5s;
+}
+
+.skills li:nth-child(6) {
+    animation-delay: 0.6s;
+}
+
+.skills li:nth-child(7) {
+    animation-delay: 0.7s;
+}
+
+.skills li:nth-child(8) {
+    animation-delay: 0.8s;
+}
 
 .skills li img {
     width: 1.3rem;
+    filter: drop-shadow(0px 0px 1px rgba(7, 4, 104, 0.489));
 }
 
 #section3 {
@@ -457,34 +500,53 @@ h3 {
 }
 
 .project {
-    background: linear-gradient(to top, #c6f4ff, #ffffff);
     min-height: 24rem;
     width: 19rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    box-shadow: 0px 0px 3px var(--shadow-secondary);
-    border-radius: 1rem;
+    background: linear-gradient(310deg, rgba(196, 194, 255, 0.65), rgba(181, 178, 255, 0.8));
+    box-shadow: -1px 1px 1px rgb(11, 1, 56);
+    border-radius: 0.7rem;
+    border: 0px solid #09031c;
     transition: all 300ms ease-out;
     animation: fadeInUp 0.8s ease-out;
     animation-fill-mode: both;
     opacity: 0;
 }
 
-.project:nth-child(1) { animation-delay: 0.1s; }
-.project:nth-child(2) { animation-delay: 0.2s; }
-.project:nth-child(3) { animation-delay: 0.3s; }
-.project:nth-child(4) { animation-delay: 0.4s; }
-.project:nth-child(5) { animation-delay: 0.5s; }
-.project:nth-child(6) { animation-delay: 0.6s; }
+.project:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.project:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.project:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.project:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.project:nth-child(5) {
+    animation-delay: 0.5s;
+}
+
+.project:nth-child(6) {
+    animation-delay: 0.6s;
+}
 
 .project:hover {
-    transform: scale(1.02) translateY(-5px);
-    box-shadow: -1px 1px 15px var(--shadow-secondary);
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 15px rgba(132, 113, 196, 0.5);
+    /* border: 1px solid #7654e6; */
 }
 
 .projectImage img {
-    border-radius: 1rem 1rem 0rem 0rem;
+    border-radius: 0.7rem 0.7rem 0rem 0rem;
     width: 100%;
 }
 
@@ -493,7 +555,7 @@ h3 {
     padding: 0.7rem;
     padding-bottom: 0;
     font-size: 1.5rem;
-    background: linear-gradient(to right, rgba(41, 21, 93, 0.9),rgba(88, 71, 216, 0.6));
+    background: linear-gradient(to right, rgba(19, 4, 59, 0.9), rgba(44, 36, 104, 0.8));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -509,7 +571,7 @@ h3 {
     padding-left: 1.2rem;
     font-size: 0.65rem;
     font-style: italic;
-    color: var(--theme-color);
+    color: rgba(9, 3, 28, 0.65);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -518,7 +580,7 @@ h3 {
     padding-top: 0;
     padding: 1.2rem;
     font-size: 0.8rem;
-    color: var(--theme-color);
+    color: rgba(9, 3, 28, 0.75);
     font-family: Arial, Helvetica, sans-serif;
     word-spacing: 0.15rem;
     letter-spacing: 0.5px;
@@ -539,9 +601,9 @@ h3 {
     align-items: center;
     gap: 0.2rem;
     text-decoration: none;
-    color: var(--theme-color);
+    color: rgba(9, 3, 28, 0.5);
     transition: all 400ms ease;
-    text-shadow: 0px 0px 1px var(--heading-color);
+    text-shadow: 0px 0px 1px rgba(9, 3, 28, 0.45);
 }
 
 .links a img {
@@ -550,8 +612,8 @@ h3 {
 
 .links a:hover,
 .links a:hover img {
-    filter: drop-shadow(0px 0px 1px rgb(195, 138, 255));
-    text-shadow: 0px 0px 1px rgb(195, 138, 255);
+    filter: drop-shadow(0px 0px 1px rgba(9, 3, 28, 0.25));
+    text-shadow: 0px 0px 1px rgba(9, 3, 28, 0.35);
     transform: scale(1.04);
 }
 
@@ -579,7 +641,7 @@ h3 {
 
 .connect a {
     text-decoration: none;
-    color: black;
+    color: rgb(196, 194, 255);
 }
 
 .connect a img {
@@ -588,28 +650,29 @@ h3 {
 }
 
 .connect a img:hover {
-    filter: drop-shadow(0px 0px 2px black);
+    filter: drop-shadow(0px 0px 3px rgba(128, 124, 255, 1));
 }
 
 .mail {
     font-size: 0.95rem;
     font-family: monospace;
+    color: rgb(196, 194, 255);
 }
 
 .msgbtn {
     font-family: Arial;
-    border: 1px solid var(--theme-color);
+    border: 1px solid rgb(196, 194, 255);
     padding: 0.55rem;
     background-color: transparent;
-    color: var(--theme-color);
+    color: rgb(196, 194, 255);
     cursor: pointer;
     text-decoration: none;
     transition: all 500ms ease;
-    box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: -1px 1px 3px rgb(196, 194, 255,0.4);
 }
 
 .msgbtn:hover {
-    background-color: var(--theme-color);
+    background-color: rgb(89, 85, 200);
     color: white;
 }
 
@@ -632,6 +695,7 @@ h3 {
         box-sizing: border-box;
         display: flex;
         padding-left: 1rem;
+        border-bottom: 0.5px solid rgb(14, 13, 46);
         align-items: center;
         gap: 0.6rem;
     }
@@ -660,13 +724,14 @@ h3 {
         align-items: center;
         justify-content: center;
         padding-right: 0rem;
+        border-top: 0.5px solid rgb(14, 13, 46);
         gap: 0.8rem;
         font-size: 0.5rem;
     }
 
     nav a:hover {
-        text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
-        filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.6));
+        text-shadow: 0px 0px 1px rgb(118, 114, 255);
+        filter: drop-shadow(0px 0px 2px rgb(118,114,255));
     }
 
     nav p {
@@ -952,6 +1017,7 @@ h3 {
         box-sizing: border-box;
         display: flex;
         padding-left: 1.4rem;
+        border-bottom: 0.5px solid rgb(14, 13, 46);
         align-items: center;
         gap: 0.9rem;
     }
@@ -979,6 +1045,7 @@ h3 {
         align-items: center;
         justify-content: center;
         padding-right: 0rem;
+        border-top: 0.5px solid rgb(14, 13, 46);
         gap: 0.9rem;
         font-size: 0.5rem;
     }
