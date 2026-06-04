@@ -31,7 +31,7 @@ export default function Section2() {
         contributing to meaningful, real-world projects.
       </div>
       <div className="resume">
-        <a href="https://drive.google.com/file/d/13veyb5GqCSqmmwN_PiHVs_X8JTUp8JIH/view?usp=sharing" target="_blank">
+        <a href="https://drive.google.com/file/d/1GpliqlhfhN6qNEz6zWD5cb8g3iPy5a6U/view?usp=drive_link" target="_blank">
           Resume
         </a>
       </div>
