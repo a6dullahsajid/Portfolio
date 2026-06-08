@@ -20,10 +20,15 @@ export default function Section2() {
       </h2>
       <div className="description">
         <span>
-          Hi, I'm Abdullah Sajid - a front-end web developer skilled in HTML,
-          CSS, JavaScript, React.js, Next.js and Tailwind CSS. I'm experienced
-          with Redux Toolkit, NextAuth, REST APIs, file-based routing, and both
-          client/server components.
+          Hi, I&apos;m Abdullah Sajid — a Full Stack Developer skilled in JavaScript,
+          React.js, Next.js, Node.js, Express.js, MongoDB, HTML, CSS, and
+          Tailwind CSS. I build scalable, responsive web applications across the
+          entire development stack, from intuitive user interfaces to secure
+          backend services and databases. My experience includes RESTful API
+          development, JWT authentication, Redux Toolkit, NextAuth, MongoDB
+          Atlas, and cloud-based integrations. I focus on writing clean,
+          maintainable code, optimizing application performance, and delivering
+          reliable solutions that solve real-world problems.
         </span>
         I specialize in building responsive, accessible, and user-friendly web
         applications with a focus on component architecture, state management,
@@ -31,7 +36,10 @@ export default function Section2() {
         contributing to meaningful, real-world projects.
       </div>
       <div className="resume">
-        <a href="https://drive.google.com/file/d/1GpliqlhfhN6qNEz6zWD5cb8g3iPy5a6U/view?usp=drive_link" target="_blank">
+        <a
+          href="https://drive.google.com/file/d/1CT2jKSwnWqRNdpkqs0QmmHRRxX1ftWUC/view?usp=drive_link"
+          target="_blank"
+        >
           Resume
         </a>
       </div>

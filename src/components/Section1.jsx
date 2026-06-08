@@ -4,7 +4,7 @@ export default function Section1() {
     <section id="section1">
       <div className="designation">
         <div className="name">Abdullah Sajid</div>
-        <div className="profession">Frontend Developer</div>
+        <div className="profession">Fullstack Developer</div>
       </div>
       <div className="profile">
         <img src={photo} alt="Profile Photo" />
